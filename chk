@@ -1,0 +1,107 @@
+
+        header
+        {
+          padding: 5px;
+          background-color:black;
+        }
+        div{
+          word-spacing: 5px;
+          font-size: 20px;
+        }
+    a:link, a:visited {
+      color: gray;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    a:hover, a:active {
+      color:orange;
+    }
+.container{
+    padding:30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 40%;
+    float: left;
+    margin-left: 35px;
+    height: 350px;
+}
+
+label{
+  line-height: 1.1;
+}
+
+input[type=text], select, textarea {
+  width: 90%;
+  padding: 10px;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 12px 18px;
+  text-align: center;
+  border-radius: 15px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 1px 1px;
+  cursor: pointer;
+}
+
+.map{
+  border: 1px  solid black;
+  border-radius: 20px;
+  width: 30%;
+  padding: 10px;
+  margin-right: 150px;
+  float:right;
+}
+p.add{
+  margin-left:10px;
+  margin-top: 1px;
+}
+iframe{
+  border: 2px solid green;
+  border-radius: 20px;
+  margin-top: 1px;
+  margin-left: 50px;
+}
+h3{
+  margin-left: 160px;
+}
+/* footer css  */
+
+.Contactinfo{
+    float: left;
+    width: 25%;
+  }
+
+.Support{
+    float: right;
+    width:25%;
+  }
+
+.Policies{
+    float: right;
+    width:25%;
+}
+
+.Know more{
+    float:right;
+    width: 25%;
+}
+
+footer{
+    background-color: lightgray;
+     padding: 30px;
+     height: 200px;
+}
+
+section
+{
+  height: 400px;
+}
